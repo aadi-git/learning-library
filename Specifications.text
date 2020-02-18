@@ -1,0 +1,17 @@
+1. Library for storing the things necessary when learning a new programming language
+2. Storing points, stories, assignments, interview questions
+
+Technical requirements
+    1. UI
+    2. Backend for storing things and retrieving
+
+UI technology
+    1. ReactJS, GraphQL
+Backend technology
+    1. Node JS, GraphQL
+
+Functional requirements
+    1. able to store, retrieve, edit, delete the points, stories, assignments, interview questions
+
+Non-functional requirements
+    1. should use react hooks
