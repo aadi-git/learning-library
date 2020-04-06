@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.scss";
+import Home from "./Components/Home";
 
 function App() {
-  return <div className="App">
-    {/**
-     * Add main components here
-     */}
-  </div>;
+  const [timeout, settimeout] = useState(0);
+  setTimeout(() => {
+    settimeout(timeout + 1);
+  }, 1000);
+  return <Home timeout={timeout}/>;
 }
 
 export default App;
